@@ -2,7 +2,10 @@
     // "plugins": ["@babel/plugin-transform-arrow-functions"]
     "presets": [
         ["@babel/preset-env", {
-            "useBuiltIns": "usage",
+        }]
+    ],
+    "plugins": [
+        ["@babel/plugin-transform-runtime", {
             "corejs": 3
         }]
     ]
